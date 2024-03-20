@@ -39,7 +39,8 @@ EC2 > Instances > Click on
 In the bottom tabs -> Click on Security
 Security groups
 Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed All traffic).
-Screenshot 2023-02-01 at 12 42 01 PM
+![image](https://github.com/phibiam/Continuous-Int_Deploy/assets/24440690/c8188ee1-d943-44fe-8938-566cef7cc70f)
+
 
 Login to Jenkins using the below URL:
 http://:8080 [You can get the ec2-instance-public-ip-address from your AWS EC2 console page]
@@ -48,22 +49,29 @@ Note: If you are not interested in allowing All Traffic to your EC2 instance 1. 
 
 After you login to Jenkins, - Run the command to copy the Jenkins Admin Password - sudo cat /var/lib/jenkins/secrets/initialAdminPassword - Enter the Administrator password
 
-Screenshot 2023-02-01 at 10 56 25 AM
+![image](https://github.com/phibiam/Continuous-Int_Deploy/assets/24440690/3707d11a-761f-4e0a-8f3e-9e3792aebcb2)
+
 
 Click on Install suggested plugins
-Screenshot 2023-02-01 at 10 58 40 AM
+
+![image](https://github.com/phibiam/Continuous-Int_Deploy/assets/24440690/6e2ddea1-b4d1-4cf7-9021-89e518c58fc6)
+
 
 Wait for the Jenkins to Install suggested plugins
 
-Screenshot 2023-02-01 at 10 59 31 AM
+
+![image](https://github.com/phibiam/Continuous-Int_Deploy/assets/24440690/ca7053fc-4c89-49a4-9925-3efc1f9275d4)
+
 
 Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]
 
-Screenshot 2023-02-01 at 11 02 09 AM
+![image](https://github.com/phibiam/Continuous-Int_Deploy/assets/24440690/7b47b27b-a4c6-4634-a1e9-14700a77fd17)
+
 
 Jenkins Installation is Successful. You can now starting using the Jenkins
 
-Screenshot 2023-02-01 at 11 14 13 AM
+![image](https://github.com/phibiam/Continuous-Int_Deploy/assets/24440690/211202e2-a4bf-4a37-bd5d-7995888fd044)
+
 
 ### Jenkins plugins
 
